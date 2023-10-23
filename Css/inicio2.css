@@ -19,7 +19,7 @@
 }
 .contenedorImagen{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     border-bottom: 3px solid #000000;
     margin-top: 6rem;
     padding: 0 3rem;
@@ -34,7 +34,7 @@
 .contenedorFormulario{
     display: grid;
     grid-template-rows: 1fr;
-    padding: 7% 16%;
+    padding: 13% 20%;
 
 }
 .contenedorLogoInicio{
