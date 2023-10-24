@@ -10,13 +10,21 @@ body{
 }
 
 .contenedorPadre{
-    display: grid;
-    grid-template-rows: 3rem 5rem 2rem 20rem;
-    grid-template-columns: 1fr;
-    width: 33% ;
-    border: 1px solid black;
-    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+
 }
+.contenedorGeneral{
+    display: grid;
+    grid-template-rows: 3rem 5rem 2rem 23rem;
+    grid-template-columns: 1fr;
+    padding: 40px 35px;
+
+}
+
 
 .contenedorRegresar{
     display: flex;
@@ -52,4 +60,83 @@ body{
     font-family: "TypnicHeadlineSlab";
     margin: 0;
 }
+.contenedorSaludo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenedorTextoSaludo{
+    display: grid;
+    grid-template-columns: 7rem 14rem 7rem;
+    align-items: center;
+}
+.textSaludo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.decoracion{
+    display: flex;
+    height: 0px;
+    border: 2px solid #780803;
+    border-radius: 100px;
+    width: 100%;
+}
+
+.contenedorTextRegi{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorInputsDatos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+    row-gap: 20px;
+}
+
+.contInputs{
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.inputs{
+
+    height: 25px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    border: 0.2px solid rgb(212, 211, 211);
+    outline: none;
+
+}
+
+.inputs:focus{
+    border: 1px solid #780803;
+}
+.label{
+    align-self: self-end;
+    font-family: "TypnicHeadlineSlab";
+    font-size: 11px;
+}
+
+.contenedorSelccion{
+    justify-self: self-start;
+    padding: 8px;
+}
+.seleccion{
+    width: 60%;
+    height: 28px;
+    border-radius: 3px;
+    border: 0.2px solid rgb(212, 211, 211);
+    outline: none;
+}
+.decoracionText{
+    display: flex;
+    column-gap: 10px;
+}
+
+
 
