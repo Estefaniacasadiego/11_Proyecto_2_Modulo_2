@@ -1,123 +1,140 @@
-.imgMale {
-    width: 100%;
-    height: 500px;
+@import url(https://db.onlinewebfonts.com/c/ce0326bb829449f42eedc2a38e45ef26?family=TypnicHeadlineSlab);
+@import url(https://db.onlinewebfonts.com/c/e695a2b548e145591a266fc50eb492e0?family=Regular);
+
+.contenedorPrincipal{
+    display: grid;
+    height: 50vh;
+    background-color: #fadedd;
+
+}
+
+.imgLogo{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+        object-position: bottom;
+        margin-top: 0.5%;
+      
     position: absolute;
-    opacity: 85%;
-
-    
-}
-
-#NumeroMale {
-    font-size: 14px;
-    text-transform: uppercase;
-    pointer-events: none;
-    transition: .2s ease all;
-    font-weight: bold;
-   
+    opacity: 95%;
 
 }
-#NumeroMale{
-    position: absolute;
-    left: 450px;
-    top: 420px;
-}
-.envioMale {
- /* Alineado con .ratreoMale para que estén en la misma posición */
- font-weight: 700;
- text-transform: uppercase;
- letter-spacing: 1.11px;
- line-height: 12px;
- padding: 24px 40px;
- border: 0;
- display: inline-block;
- position: absolute;
- margin-top: 25%;
- margin-left: 3%;
-}
 
-
-.formularioMale{
-    background: #fafafa;
-    font-size: 20px;
-    font-weight: 300;
-    width: calc(30%);
-    padding: 27px 8px 10px 15px;
-    border: 0;
-    border-radius: 0;
-    box-shadow: none;
+.contenedorRatreo{
+    display: grid;
+    grid-template-columns: 18% 58% 21%;
+    column-gap: 5px;
+    align-self: self-end;
+    justify-self: center;
+    align-items: center;
+    top: 20px;
     position: relative;
-    margin-top: 25%;
-    margin-left: 28%;
+    height: 3rem;
+    width: 29rem;
+    border-radius: 20px;
+    border: 0.3px solid rgb(211, 211, 211);
+    padding: 5px 20px 5px 15px;
+    background-color: white;
     
 }
+.contenedorInput{
+    display: flex;
+    height: 100%;
+
+}
+.formularioMale{
+    width:100% ;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: "Regular";
+
+}
+.contenedorBoton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left:  0.5px solid rgb(189, 189, 189);
+    padding-left: 8px;
+    height: 70%;
+    width: 100%;
+}
+.envioMale{
+
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 8rem;
+    font-size: 12px;
+    font-family: "Regular";
+    background-color: #780803 ;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
 .envioMale:hover{
-    color: #fa1f0c;
-
+    color: white;
+    background-color: black;
 }
-.InfoEnvios{
-    margin-top: 5%;
-    font-size: 40px;
-    color: #cf1709 ;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+.contenedor{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2, 30vh);
+    justify-content: center;
+    row-gap: 10px;
+    column-gap:30px ;
+    margin-top: 3rem;
 }
-
-.ComunidadMale{
-    margin-left: 20%;
-    width: calc(30%);
-    position: absolute;
-    font-size: 20px;
-    margin-top: 19%;
-
-}
-.TiendaMale{
-    width: 30%;
-    margin-left: 60%;
-    margin-top: 15%;
-
-}
-
-.ConvivenciaMale{
-   
-    width: calc(30%);
-    position: absolute;
-    font-size: 20px;
-    margin-top: 43%;
-    margin-left: -29%;
-
+.contGen{
+    display: grid;
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow:
+    inset 0 -3em 3em rgba(255, 255, 255, 0.842),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(66, 6, 6, 0.699);
+    transition: .2s; 
 }
 
-.SeguroMale{
-    width: 30%;
-    margin-left: 20%;
-    margin-top: 4%;
-}
-.SeguridadMale{
-
-    width: calc(30%);
-    position: absolute;
-    font-size: 20px;
-    margin-top: 30%;
-    margin-left: -29%;
-
+.contGen:hover{
+    transform: scale(1.05);
 }
 
-.VerificaMale{
-    width: 35%;
-    margin-left: 60%;
-    margin-top: 1%;
+.contenedorIn{
+    display: grid;
+    grid-template-columns: 39% 60%;
+    
+}
+.contenedorInfo{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.contenedorJustify{
+    justify-self: end;
+}
+.contAling{
+    align-self: center;
 }
 
-.VariedadMale{
-    width: calc(30%);
-    position: absolute;
-    font-size: 20px;
-    margin-top: 30%;
-    margin-left: -35%;
-
+.textC{
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: "regular";
+    font-size: 1vw;
+    
 }
-.TiempoMale{
-    width: 35%;
-    margin-left: 18%;
-    margin-top: 5%;
+.TiendaMale, .SeguroMale, .VerificaMale, .TiempoMale {
+    max-width: 89%;
+    max-height: 89%;
+    margin-top: -10%;
+    position:relative
 }
