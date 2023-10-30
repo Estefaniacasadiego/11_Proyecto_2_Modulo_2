@@ -1,4 +1,3 @@
-css nav
 *{
     box-sizing: border-box;
     margin: 0;
@@ -30,16 +29,9 @@ header{
 
 }
 
-.logoNav{
-    position: absolute; 
-        max-width: 90%;
-        max-height: 80%;
-        margin-top: -2.4%;
-        margin-left: -45%;
-        
-       
-    
-    
+.logo{
+    position: absolute;
+    left: 170px;   
 }
 
 .header .logo img{

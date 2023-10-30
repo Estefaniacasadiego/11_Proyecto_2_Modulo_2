@@ -1,0 +1,107 @@
+css nav
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 9vh;
+    width: 100vw;
+
+}
+.contenedorNavLogo{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+.contNav{
+    display: flex;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.elementosNav li{
+    display: inline-flex;
+    margin: 0 10px;
+    
+
+}
+.elementosNav li a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+
+}
+
+.header .logo {
+    cursor: pointer;
+
+}
+
+
+
+.header .logo img{
+    height: 10vh;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 50%;
+
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+
+
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+.navbar li a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+    font-family: "regular";
+
+}
+nav ul li a:hover{
+    color: rgb(168, 50, 54);
+}
+
+.contenedorBtns{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 20px;
+}
+
+.btnAcceso{
+
+    height: 35px;
+    border-radius: 15px;
+    font-family: "Regular";
+    transition: 0.4s;
+}
+
+.btnAcceso a{
+    display: flex;
+    color: white;
+    text-decoration:none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.btnAcceso:hover{
+    background-color: black;
+}

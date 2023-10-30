@@ -1,7 +1,7 @@
 @import url(https://db.onlinewebfonts.com/c/ce0326bb829449f42eedc2a38e45ef26?family=TypnicHeadlineSlab);
 @import url(https://db.onlinewebfonts.com/c/e695a2b548e145591a266fc50eb492e0?family=Regular);
 
-.contenedorPrincipal{
+.contenedorPrincipal1{
     display: grid;
     grid-template-columns: 50% 50%;
 }
